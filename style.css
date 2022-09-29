@@ -4,16 +4,21 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 150%;
+  text-align: center;
 }
 
 .parent {
   font-size: 30px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  padding-top: 30px auto;
+  border-radius: 10px;
+  border-color: black;
+  text-align: center;
 }
 
 .child {
-  border: 1px solid red;
-  width: 28%;
+  border-radius: 10px;
+  border-color: red;
 }
