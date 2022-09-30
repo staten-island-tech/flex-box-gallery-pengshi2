@@ -4,21 +4,30 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 150%;
+  font-size: 125%;
+  background-color: crimson;
   text-align: center;
 }
 
 .parent {
-  font-size: 30px;
   display: flex;
-  flex-direction: row;
-  padding-top: 30px auto;
-  border-radius: 10px;
-  border-color: black;
-  text-align: center;
+  justify-content: space-around;
+  margin: 20px auto;
+  width: 75%;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+  align-items: stretch;
 }
 
 .child {
-  border-radius: 10px;
-  border-color: red;
+  border: 5px solid black;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem black;
+  border-radius: 5px;
+}
+
+#header {
+  font-size: 30px;
 }
