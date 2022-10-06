@@ -23,7 +23,7 @@ body,
 
 .child {
   border: 5px solid black;
-  width: 31%;
+  width: 30%;
   text-align: center;
   box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem black;
   border-radius: 5px;
