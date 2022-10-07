@@ -51,20 +51,13 @@ body,
   color: white;
 }
 
-@media (max-width: 500px) and (max-height: 500px) {
+@media screen and (max-width: 600px)  {
   .child{
   }
-}
-
-@media (orientation: landscape) and (max-width: 500px) {
- .header {
-  color: white;
- }
-
-}
-
-@media(orientation: portrait) {
-  .parent{
+  .header {
     color: white;
   }
+    .parent{
+      color: white;
 }
+
