@@ -4,7 +4,6 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 125%;
   background-color: crimson;
   text-align: center;
 }
@@ -30,16 +29,42 @@ body,
 }
 
 .child:hover {
-  transform:scale(1.1);
+  transform:scale(1.1) rotate(360deg);
   transition-delay: 0.05s;
-  transition-duration: 0.5s;
+  transition-duration: 1s;
+  color: black;
 }
+
+ #header:hover {
+  transform:scale(1.1) rotate(360deg);
+  transition-delay: 0.05s;
+  transition-duration: 2s;
+}
+
 #header {
   margin: 20px auto;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   padding: 10px;
   border: 3px solid black;
-  width: 30%;
+  width: 15%;
   border-radius: 20px;
   color: white;
+}
+
+@media (max-width: 500px) and (max-height: 500px) {
+  .child{
+  }
+}
+
+@media (orientation: landscape) and (max-width: 500px) {
+ .header {
+  color: white;
+ }
+
+}
+
+@media(orientation: portrait) {
+  .parent{
+    color: white;
+  }
 }
