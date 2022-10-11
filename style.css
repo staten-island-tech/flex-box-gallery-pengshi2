@@ -22,23 +22,24 @@ body,
 
 .child {
   border: 5px solid black;
-  width: 30%;
+  width: 25%;
   text-align: center;
   box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem black;
   border-radius: 5px;
 }
 
 .child:hover {
-  transform:scale(1.1) rotate(360deg);
+  transform:scale(1.1) rotate(360deg) translate(40px,20px);
   transition-delay: 0.05s;
   transition-duration: 1s;
   color: black;
 }
-
  #header:hover {
-  transform:scale(1.1) rotate(360deg);
+  transform: rotate(360deg) scale(1.1);
   transition-delay: 0.05s;
   transition-duration: 2s;
+  color:white;
+  
 }
 
 #header {
@@ -46,18 +47,21 @@ body,
   margin-bottom: 75px;
   padding: 10px;
   border: 3px solid black;
-  width: 15%;
+  width: 20%;
   border-radius: 20px;
   color: white;
 }
 
 @media screen and (max-width: 600px)  {
   .child{
+    align-items: center;
   }
   .header {
     color: white;
+    flex-direction: column;
   }
     .parent{
       color: white;
+      width: 100%;
 }
 
