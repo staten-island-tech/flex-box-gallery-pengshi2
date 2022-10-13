@@ -8,13 +8,6 @@ body,
   text-align: center;
 }
 
-.post {
-  size: 50px;
-}
-
-.h2 {
-  font-size: 30px;
-}
 
 .parent {
   display: flex;
@@ -63,7 +56,8 @@ body,
 @media screen and (max-width: 600px)  {
   .child{
     align-items: center;
-    width: 10%;
+    width: 75%;
+    margin-bottom: 40px;
   }
   .header {
     color: white;
@@ -71,6 +65,8 @@ body,
   }
     .parent{
       color: white;
-      width: 10%; 
+      width: 100%; 
+      flex-direction: column;
+
 }
 
