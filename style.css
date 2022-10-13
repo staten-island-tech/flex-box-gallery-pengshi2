@@ -8,14 +8,14 @@ body,
   text-align: center;
 }
 
-
 .parent {
   display: flex;
   justify-content: space-around;
   margin: 20px auto;
   width: 65%;
+  scale: 80%;
   align-items: center;
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   align-items: stretch;
   font-family: "Mulish", sans-serif;
@@ -39,7 +39,7 @@ body,
   transform: rotate(360deg) scale(1.1);
   transition-delay: 0.05s;
   transition-duration: 2s;
-  color:white;
+  color: black;
   
 }
 
