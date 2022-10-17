@@ -31,10 +31,8 @@ body,
 
 .child:hover {
   transform:scale(1.1) rotate(360deg) translate(40px,20px) rotate3d(0,1,0, 360deg);
-  transition-duration: 300ms;
+  transition-duration: 1s;
   transition-delay: 0.1s;
- 
-
   color: black;
 }
  #header:hover {
@@ -44,6 +42,7 @@ body,
   color: black;
   
 }
+
 
 #header {
   margin: 20px auto;
