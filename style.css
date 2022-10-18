@@ -29,7 +29,6 @@ body,
   border-radius: 5px;
 }
 
-
 .child:hover {
   transform:rotate(360deg);
   transition-delay: 5ms;
@@ -38,8 +37,26 @@ body,
   animation-iteration-count: 1;
   color: black;
 }
+
+.test:hover {
+  transform: translate(0px,20px);
+  transition-delay: 5ms;
+  transition-duration: 1s;
+}
+
+.test2:hover {
+  transform: scale(0.85);
+  transition-delay: 5ms;
+  transition-duration: 1s;
+}
+
+.test1:hover {
+  transform:scale(1.2);
+  transition-delay: 5ms;
+  transition-duration: 1s;
+}
  #header:hover {
-  transform: rotate(360deg);
+  transform: rotate(-15deg);
   background-color: aqua;
   transition-delay: 0.05s;
   transition-duration: 1.5s;
